@@ -1,0 +1,31 @@
+# Example FastAPI
+
+## Requirements
+- pipenv
+- python 3.x
+
+## Setup
+- setup virtual environment
+```
+pipenv --python 3.9
+```
+- install dependencies
+```
+pipenv install
+```
+
+## Run
+- start server
+```
+uvicorn main:app --reload
+```
+- call api
+```
+➜  ~ curl localhost:8000 | jq
+^[[5~  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    17  100    17    0     0   8500      0 --:--:-- --:--:-- --:--:--  8500
+{
+  "Hello": "World"
+}
+```
