@@ -29,3 +29,4 @@ uvicorn main:app --reload
   "Hello": "World"
 }
 ```
+- api documentations http://localhost:8000/docs
