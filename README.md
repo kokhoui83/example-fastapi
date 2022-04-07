@@ -17,7 +17,11 @@ pipenv install
 ## Run
 - start server
 ```
+# method 1
 uvicorn main:app --reload
+
+# method 2
+python server.py
 ```
 - call api
 ```
